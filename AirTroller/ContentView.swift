@@ -66,8 +66,8 @@ struct ContentView: View {
                             }
                             
                             Button(!trollController.isRunning ? "Start trolling" : "Stop trolling") {
-//                                guard selectedPeople.values.filter({ $0 == true }).count <= 2 else {
-//                                    UIApplication.shared.alert(title: "Cannot start, too many users selected", body: "AirTroller only allows trolling up to 2 people at a time. Please unselect some users to continue.")
+//                                guard selectedPeople.values.filter({ $0 == true }).count <= 50 else {
+//                                    UIApplication.shared.alert(title: "Cannot start, too many users selected", body: "AirTroller only allows trolling up to 50 people at a time. Please unselect some users to continue.")
 //                                    return
 //                                }
                                 // MARK: ~~people are physopaths~~ people ARE physopaths
